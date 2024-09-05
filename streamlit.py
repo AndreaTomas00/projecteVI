@@ -185,6 +185,5 @@ final_vis = alt.vconcat(alt.hconcat(alt.layer(c_base, zc_base, c_map).properties
 ).resolve_legend(color = "independent", size = "independent").resolve_scale(color = "independent")
 st.set_page_config(
     page_title = "VI - Projecte 2",
-    layout = "wide"
 )
 st.altair_chart(final_vis)
